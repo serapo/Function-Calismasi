@@ -1,0 +1,95 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+h2{
+  text-align: center;
+}
+td{
+  border : 2px solid red ;
+  height: 5rem;
+  text-align: center;
+  padding: 1rem;
+  width: 33.3vh;
+ 
+}
+table{
+border-spacing: 30px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+p{text-align: justify;}
+b{
+  text-align: center;
+}
+.cevaplar {
+padding-left: 50rem;
+text-align: justify;
+
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+   .dropdown-child1 {
+    display: none;
+    background-color: black;
+  /* min-width: 50px; */
+  }
+.dropdown-child1 li {
+color: white;
+padding: 1rem;
+text-decoration: none;
+display: block;
+}
+.dropdown:hover .dropdown-child1 {
+display:block;
+}
+.btn {
+background-color: red;
+color: white;
+border: none;
+cursor: pointer;
+}
+.btn:hover {
+background-color: gray;
+}  
+.dropdown-child2 {
+    display: none;
+    background-color: black;
+  /* min-width: 50px; */
+  }
+.dropdown-child2 li {
+color: white;
+padding: 1rem;
+text-decoration: none;
+display: block;
+}   
+
+.dropdown-child3 {
+    display: none;
+    background-color: black;
+  /* min-width: 50px; */
+  }
+.dropdown-child3 li {
+color: white;
+padding: 1rem;
+text-decoration: none;
+display: block;
+} 
+.dropdown2:hover .dropdown-child2 {
+    display:block;
+    }
+
+.dropdown3:hover .dropdown-child3 {
+        display:block;
+}   
+
+.cevaplar .dropdown .btn{
+    position:relative;
+    display: flex;
+    padding:1rem;
+}
+        
+     

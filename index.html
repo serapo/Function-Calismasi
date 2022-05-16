@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function Çalışma Soru ve Cevaplar</title>
+    <script src="function.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <style>
+ 
+    </style>
+</head>
+<body>
+     <h2>JS Function Çalışma Soru - Cevapları</h2>
+     <table>
+        <tr class="sorular">
+            <td class="soru1"><b>SORU 1:</b>
+                <br><br>
+                <p>Taban Taban ve yükseklik değerlerini parametre olarak alan ve bir üçgenin alanını hesaplayarak ana programa döndüren fonksiyonu yazınız</p>
+
+            </td>
+            
+           <td>
+            SORU 2:<br><br>
+            kareAl,küpAl,üsAl şeklinde şeklindeüç adet farklı arrow fonksiyonu tanımlayın tanımlayın.Bu fonksiyonların ana programdan gereken parametreleri alarak sonuçları sonuçları ana programa döndürmeli gerekmektedir gerekmektedir.
+           </td>
+           <td>
+            SORU 3:
+            <br><br>Yıl değerini parametre olarak alan ve bu yılın artık yıl olup olmadığını hesaplayarak sonucu ana programa döndüren fonksiyonu function-expression yöntemi ile yazınız.NOT:Yıl 4’e tam bölünüyorsa bölünüyorsa VE (100 'e tam bölünbölünmüyorsayorsaVEYA 400 'e tam bölünüyorsa) artık yıldır aksi takdirde değildirdeğildir.
+           </td>
+           
+        </tr>
+        
+    </table>
+    <div class="cevaplar">
+     <div class="dropdown">
+     <button class="btn">Soru 1 Cevabı için Tıkla</button>
+            <div class="dropdown-child1">
+             <li> <p>ÜçgeninAlanı=(tabanxyükseksik)/2 <br>
+                function ucgenAlan(taban,yukseklik){                
+                    let alan=(taban*yukseklik)/2;<br>
+                    console.log(alan);<br></p></li>
+    </div>
+    <div class="dropdown2">
+     <button class="btn">Soru 2 Cevabı için Tıkla</button>
+            <div class="dropdown-child2">
+           <li>
+            <p>
+                const kareAl=num =>(num**2);
+                const küpAl=num =>(num**3);
+                const üsAl=(taban,üs) => (taban**üs);
+
+                console.log(kareAl(4));
+                console.log(küpAl(4));
+                console.log(üsAl(3,5));
+            </p>
+              </li>
+    </div>
+    <div class="dropdown3">
+     <button class="btn">Soru 3 Cevabı için Tıkla</button>
+     <div class="dropdown-child3">
+        <li>
+            <p>
+                const yıl=function(year){
+                    if(year%4==0 && (year%100!=0 || year%400==0)){
+                        return year;
+                    }
+                    else{
+                        return false;
+                    }
+                }
+                
+                console.log(yıl(2022));
+            </p>
+           </li>
+        </div>
+    </div>
+</div>
+</body>
+</html>
